@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+       <bean id = "prorder" class = "com.klu.model.Order">
+   <constructor-arg value = "102"></constructor-arg>
+   <constructor-arg value = "Akhil"></constructor-arg>
+   <property name = "productName" value = "Computer"></property>
+       </bean>
+</beans>
